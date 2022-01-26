@@ -21,7 +21,6 @@ class Solution {
              ||s.charAt(i)=='A'||s.charAt(i)=='E'||s.charAt(i)=='I'||s.charAt(i)=='O'||s.charAt(i)=='U')  
             {
                c=vowels.get(len);
-               /* s.replace(Character.toString(s.charAt(i)),c);*/
                 str.setCharAt(i,c);
                 len--;
             }
