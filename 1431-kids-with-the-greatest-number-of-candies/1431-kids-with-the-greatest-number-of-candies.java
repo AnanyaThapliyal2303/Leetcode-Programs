@@ -1,8 +1,6 @@
 class Solution {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
-        //calculate max of array, then compare with each 
-        //element whether its sum along with extra candies 
-        //is more than the maximum
+        
         ArrayList<Boolean> arr= new ArrayList<Boolean>();
         int max=0;
         for(int i=0;i<candies.length;i++)
