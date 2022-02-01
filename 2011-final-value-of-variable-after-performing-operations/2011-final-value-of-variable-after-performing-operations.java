@@ -4,9 +4,9 @@ class Solution {
         for(i=0;i<operations.length;i++)
         {
             if(operations[i].compareTo("++X")==0 || operations[i].compareTo("X++")== 0)
-                res=res+1; 
+                res++; 
             else 
-                res=res-1;
+                res--;
         }
         return res;
     }
