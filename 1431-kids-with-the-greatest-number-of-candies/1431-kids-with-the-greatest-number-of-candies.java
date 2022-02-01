@@ -10,7 +10,6 @@ class Solution {
             if(max<candies[i])
                 max=candies[i];
         }
-        System.out.print(max);
         for(int i=0;i<candies.length;i++)
         {
             if(max<=candies[i]+extraCandies)
